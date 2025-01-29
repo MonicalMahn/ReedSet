@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReedSet By Monical</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #2575fc, #6a11cb);
+            color: #fff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 0;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: slideIn 1s;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .btn-download {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #fff;
+            background: #ff5f6d;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .btn-download:hover {
+            background: #ff7f7f;
+            transform: scale(1.1);
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .images img {
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .images img:hover {
+            transform: scale(1.1);
+        }
+
+        .about-content {
+            text-align: left;
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+
+        .about-content h3 {
+            margin-top: 20px;
+            color: #ffd700;
+        }
+
+        .about-content ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        .about-content ul li {
+            margin: 10px 0;
+        }
+        
+        .ptitle {
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to ReedSet</h1>
+            <div class="ptitle" >
+                
+                A Clean & Minimalistic Windows Optimization App.
+            </div>
+        </header>
+
+        <section id="about-app">
+            <h2>About the App & More</h2>
+            <div class="about-content">
+                <p><strong>🖥️ Clean & Minimalistic Windows Optimization App</strong></p>
+                <ul>
+                    <li>Tweaks to improve system performance.</li>
+                    <li>System Health monitoring.</li>
+                    <li>Plenty of other tools to keep your system running smoothly.</li>
+                </ul>
+                <p>This app is portable, meaning it doesn’t require installation, making it extremely lightweight and easy to use.</p>
+                <h3>🛠️ Built With:</h3>
+                <ul>
+                    <li>WPF</li>
+                    <li>C#</li>
+                    <li>Developed in Visual Studio</li>
+                </ul>
+                <h3>✨ Features:</h3>
+                <ul>
+                    <li>System Tweaks: Optimize your system performance with simple tweaks.</li>
+                    <li>System Health: Monitor the health and performance of your PC.</li>
+                    <li>Portable: No installation required – take it anywhere!</li>
+                    <li>Safe & Secure: All scripts are custom-made to guarantee safety. (scripts are tested by me)</li>
+                </ul>
+                <h3>🔧 Getting Started:</h3>
+                <ol>
+                    <li>Download the app from the Releases page.</li>
+                    <li>Run the executable (no installation needed).</li>
+                    <li>Explore the app and enhance your PC's performance.</li>
+                </ol>
+                <h3>👨‍💻 Developer:</h3>
+                <p>Monical Development. For further inquiries or support, feel free to email me: <strong>📧 monicalyt6292@gmail.com</strong></p>
+                <h3>📄 License:</h3>
+                <p>This project is not licensed yet due to it still being worked on.</p>
+                <h3>📱 Development Status:</h3>
+                <p>This Project is actively being worked on to be released as fast as possible.</p>
+            </div>
+            <div class="images">
+                <img src="https://via.placeholder.com/100" alt="Feature 1">
+                <img src="https://via.placeholder.com/100" alt="Feature 2">
+                <img src="https://via.placeholder.com/100" alt="Feature 3">
+            </div>
+        </section>
+
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hi! I'm Kevin, a developer who loves creating games and apps but often not finishing them lol. Feel free to connect with me at monicalyt6292@gmail.com and share your feedback!</p>
+        </section>
+
+        <section id="downloads">
+            <h2>Download the App</h2>
+            <p>Ready to get started? Click below to download ReedSet and breathe new life into your system.</p>
+            <a href="#" class="btn-download">Download Now</a>
+        </section>
+    </div>
+</body>
+</html>
